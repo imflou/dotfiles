@@ -1,0 +1,85 @@
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  padding:
+    x: 10
+    y: 10
+  decorations: full
+  startup_mode: Windowed
+scrolling:
+  history: 10000
+  multiplier: 3
+font:
+  normal:
+    family: Iosevka
+  bold:
+    family: Iosevka
+  italic:
+    family: Iosevka
+  bold_italic:
+    family: Iosevka
+  size: 13
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: -1
+draw_bold_text_with_bright_colors: false
+colors:
+  primary:
+    background: '0x0f0f0f'
+    foreground: '0xf0f0f0'
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: '#000000'
+      background: '#ffffff'
+    focused_match:
+      foreground: CellBackground
+      background: CellForeground
+    bar:
+      background: '#c5c8c6'
+      foreground: '#1d1f21'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    text: CellBackground
+    background: CellForeground
+  normal:
+    black:   '0x262626'
+    red:     '0xac8a8c'
+    green:   '0x8aac8b'
+    yellow:  '0xaca98a'
+    blue:    '0x8f8aac'
+    magenta: '0xac8aac'
+    cyan:    '0x8aabac'
+    white:   '0xe7e7e7'
+  bright:
+    black:   '0x4c4c4c'
+    red:     '0xc49ea0'
+    green:   '0x9ec49f'
+    yellow:  '0xc4c19e'
+    blue:    '0xa39ec4'
+    magenta: '0xc49ec4'
+    cyan:    '0x9ec3c4'
+    white:   '0xf5f5f5'
+bell:
+  animation: EaseOutExpo
+  duration: 1
+  color: '0x333333'
+backgroung_opacity: 0.0
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: false
+cursor:
+  style: Beam
+  unfocused_hollow: true
+live_config_reload: true
